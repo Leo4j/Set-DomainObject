@@ -3,6 +3,9 @@ Modify or clear a property for a specified active directory object - Necessary r
 
 ### Usage
 ```
+iex(new-object net.webclient).downloadstring('https://raw.githubusercontent.com/Leo4j/Set-DomainObject/main/Set-DomainObject.ps1')
+```
+```
 Set-DomainObject -Identity Senna -Set @{'mail' = "something@test.com"}
 ```
 ```
