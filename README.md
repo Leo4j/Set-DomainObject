@@ -9,7 +9,7 @@ iex(new-object net.webclient).downloadstring('https://raw.githubusercontent.com/
 Set-DomainObject -Identity Senna -Set @{'mail' = "something@test.com"}
 ```
 ```
-Set-DomainObject -Identity Senna -Clear @{'mail'}
+Set-DomainObject -Identity Senna -Clear @('mail')
 ```
 ![image](https://github.com/Leo4j/Set-DomainObject/assets/61951374/9385a6f7-446b-4c1a-9b1e-5f74e2b6f004)
 
